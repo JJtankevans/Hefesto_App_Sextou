@@ -50,7 +50,7 @@
                 android:ems="10"
                 android:gravity="center_horizontal|center_vertical"
                 android:importantForAutofill="no"
-                android:inputType="textPersonName"
+                android:inputType="textShortMessage|textPersonName"
                 android:text="@string/login"
                 android:textColor="#6B000000"
                 android:textSize="18sp" />
@@ -95,6 +95,7 @@
                 android:layout_marginEnd="88dp"
                 android:layout_marginRight="88dp"
                 android:layout_marginBottom="143dp"
+                android:onClick="iniciaCadastro"
                 android:text="@string/cadastrar"
                 android:textSize="24sp"
                 app:backgroundTint="#83D4C0" />
