@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fadeScrollbars="true"
+    android:minWidth="900dp"
+    android:minHeight="1700dp"
+    android:scrollbars="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="225dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="97dp"
+                android:layout_marginLeft="97dp"
+                android:layout_marginTop="96dp"
+                android:layout_marginEnd="89dp"
+                android:layout_marginRight="89dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:rotationX="0"
+                android:text="@string/app_title"
+                android:textColor="@color/black"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="55dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:text="@string/login"
+                android:textColor="#6B000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="55dp"
+                android:autofillHints=""
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="textPassword"
+                android:text="@string/senha"
+                android:textColor="#6B000000" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="235dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="88dp"
+                android:layout_marginRight="88dp"
+                android:text="@string/entrar"
+                android:textSize="24sp"
+                app:backgroundTint="#83D4C0" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="235dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="88dp"
+                android:layout_marginRight="88dp"
+                android:layout_marginBottom="143dp"
+                android:text="@string/cadastrar"
+                android:textSize="24sp"
+                app:backgroundTint="#83D4C0" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
