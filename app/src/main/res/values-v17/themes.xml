@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="inputsTexts">
+        <item name="backgroundColor">@color/gray</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
