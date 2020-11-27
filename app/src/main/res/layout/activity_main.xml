@@ -82,6 +82,7 @@
                 android:layout_marginEnd="88dp"
                 android:layout_marginRight="88dp"
                 android:text="@string/entrar"
+                android:textColor="#F0F4F3"
                 android:textSize="24sp"
                 app:backgroundTint="#83D4C0" />
 
@@ -97,6 +98,7 @@
                 android:layout_marginBottom="143dp"
                 android:onClick="iniciaCadastro"
                 android:text="@string/cadastrar"
+                android:textColor="#F0F4F3"
                 android:textSize="24sp"
                 app:backgroundTint="#83D4C0" />
 
