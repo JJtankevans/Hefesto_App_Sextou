@@ -8,4 +8,14 @@
     <string name="textView">Escolha o tipo de perfil que deseja cadastrar?</string>
     <string name="artista">Artista</string>
     <string name="sexto">Sexto</string>
+    <string name="nomeArtist">Nome</string>
+    <string name="e_mail">E-mail</string>
+    <string name="cpfArtist">CPF</string>
+    <string name="concluirArtist">Concluir</string>
+    <string name="nome_do_artista_banda">Nome do artista/banda</string>
+    <string name="senhatxtvw">Senha:</string>
+    <string name="nomeSexto">Nome</string>
+    <string name="e_mailSexto">E-mail</string>
+    <string name="cpfSexto">CPF</string>
+    <string name="concluirSexto">Concluir</string>
 </resources>
