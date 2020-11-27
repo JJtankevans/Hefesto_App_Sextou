@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CadsextoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="321dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="55dp"
+                android:autofillHints=""
+                android:background="@android:drawable/editbox_background_normal"
+                android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
+                android:inputType="textPersonName"
+                android:text="@string/nomeSexto"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress2"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="55dp"
+                android:autofillHints=""
+                android:background="@android:drawable/editbox_background_normal"
+                android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/e_mailSexto"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="255dp"
+                android:layout_marginRight="255dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/senhatxtvw"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword3"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="55dp"
+                android:autofillHints=""
+                android:background="@android:drawable/editbox_background_normal"
+                android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="55dp"
+                android:autofillHints=""
+                android:background="@android:drawable/editbox_background_normal"
+                android:ems="10"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="textPersonName"
+                android:text="@string/cpfSexto"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/editTextDate2"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="82dp"
+                android:layout_marginLeft="82dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="82dp"
+                android:layout_marginRight="82dp"
+                android:autofillHints=""
+                android:background="@android:drawable/editbox_background_normal"
+                android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
+                android:inputType="date"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="235dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="88dp"
+                android:layout_marginRight="88dp"
+                android:layout_marginBottom="185dp"
+                android:text="@string/concluirSexto"
+                android:textColor="#F0F4F3"
+                android:textSize="24sp"
+                app:backgroundTint="#83D4C0" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
